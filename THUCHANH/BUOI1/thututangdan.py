@@ -1,10 +1,12 @@
-a = float(input())
-b = float(input())
-c = float(input())
-if a > b:
-    a, b = b, a
-if a > c:
-    a, c = c, a
-if b > c:
-    b, c = c, b
-print(a, b, c)
+arr = []
+
+a = arr.append(float(input()))
+b = arr.append(float(input()))
+c = arr.append(float(input()))
+
+arr.sort()
+
+for num in arr:
+    if(num) == int(num):
+        num = int(num)
+    print(num, end=" ")
