@@ -1,6 +1,6 @@
-a = int(input())
+a = float(input())
 
-if a % 2 == 0:
+if a % 2 == 0 and a > 2:
     print("YES")
 else:
     print("NO")
